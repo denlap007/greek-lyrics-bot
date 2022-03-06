@@ -5,7 +5,7 @@
   "main": "bot.js",
   "type": "module",
   "engines": {
-    "node": ">=16.13.2"
+    "node": ">=16.14.0"
   },
   "scripts": {
     "start": "node bot.js",
