@@ -6,6 +6,7 @@
   - [Installation](#installation)
   - [Quickstart](#quickstart)
   - [Docker](#docker)
+  - [Online Bot](#online-bot)
   - [License](#license)
 
 ## Requirements
@@ -35,6 +36,9 @@ Set the BOT_TOKEN environment variable at runtime
 ```sh
 docker run -d --name greek-lyrics-bot -e "BOT_TOKEN=<THE BOT TOKEN>" denlap/greek-lyrics-bot
 ```
+
+## Online Bot
+Send message to a deployed [telegram bot](https://telegram.me/greekLyrics_bot) instance
 
 ## License
 
