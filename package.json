@@ -1,0 +1,21 @@
+{
+  "name": "greek-lyrics-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to look up Greek song lyrics",
+  "main": "bot.js",
+  "type": "module",
+  "engines": {
+    "node": ">=16.13.2"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dionysis Lappas",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "got": "^12.0.1",
+    "node-telegram-bot-api": "^0.56.0"
+  }
+}
